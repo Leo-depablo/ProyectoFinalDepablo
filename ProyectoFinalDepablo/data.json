@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "Mezquita Central (La Meca)",
+    "latitude": 21.426868801769462,
+    "longitude": 39.84303394569408,
+    "description": "El lugar sagrado de La Meca."
+  },
+  {
+    "id": 2,
+    "name": "Torre Eiffel (París)",
+    "latitude": 48.8584,
+    "longitude": 2.2945,
+    "description": "El icónico monumento de París."
+  },
+  {
+    "id": 3,
+    "name": "Estatua de la Libertad (Nueva York)",
+    "latitude": 40.6892,
+    "longitude": -74.0445,
+    "description": "Símbolo de la libertad en EE.UU."
+  },
+  {
+    "id": 4,
+    "name": "Cristo Redentor (Río de Janeiro)",
+    "latitude": -22.9519,
+    "longitude": -43.2105,
+    "description": "Famosa estatua Art Decó en Río de Janeiro."
+  },
+  {
+    "id": 5,
+    "name": "Coliseo Romano (Roma)",
+    "latitude": 41.8902,
+    "longitude": 12.4922,
+    "description": "Antiguo anfiteatro romano."
+  }
+]
