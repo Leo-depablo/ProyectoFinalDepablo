@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simulador de Distancia</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </head>
+  <body>
+    <h1>Simulador de Distancia a Puntos de Interés</h1>
+
+    <form id="formCoordenadas">
+      <label for="latitud">Tu Latitud:</label>
+      <input
+        type="number"
+        step="any"
+        id="latitud"
+        name="latitud"
+        placeholder="Ej: -34.6037"
+        required
+      />
+
+      <label for="longitud">Tu Longitud:</label>
+      <input
+        type="number"
+        step="any"
+        id="longitud"
+        name="longitud"
+        placeholder="Ej: -58.3816"
+        required
+      />
+
+      <label for="selectPunto">Calcular distancia a:</label>
+      <select id="selectPunto">
+        <option value="">Cargando destinos...</option>
+      </select>
+
+      <button type="submit">Calcular Distancia</button>
+    </form>
+
+    <button id="ayuda">¿No sabes tus coordenadas?</button>
+
+    <div id="resultado" class="hidden"></div>
+
+    <div id="historialCalculos">
+      <h2>Historial de Cálculos</h2>
+      <ul id="listaHistorial">
+        <li>No hay cálculos previos.</li>
+      </ul>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
